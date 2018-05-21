@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="32887" started-at="2018-05-21T09:23:25Z" finished-at="2018-05-21T09:23:58Z">
+  <suite name="Suite" duration-ms="12325" started-at="2018-05-21T11:12:15Z" finished-at="2018-05-21T11:12:27Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="32887" started-at="2018-05-21T09:23:25Z" finished-at="2018-05-21T09:23:58Z">
+    <test name="Test" duration-ms="12325" started-at="2018-05-21T11:12:15Z" finished-at="2018-05-21T11:12:27Z">
       <class name="example.NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@5bfbf16f]" name="beforeTest" is-config="true" duration-ms="19976" started-at="2018-05-21T09:23:25Z" finished-at="2018-05-21T09:23:45Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@5bfbf16f]" name="beforeTest" is-config="true" duration-ms="3446" started-at="2018-05-21T11:12:15Z" finished-at="2018-05-21T11:12:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testTitle()[pri:0, instance:example.NewTest@5bfbf16f]" name="testTitle" duration-ms="9874" started-at="2018-05-21T09:23:45Z" finished-at="2018-05-21T09:23:55Z">
+        <test-method status="PASS" signature="testTitle()[pri:0, instance:example.NewTest@5bfbf16f]" name="testTitle" duration-ms="6728" started-at="2018-05-21T11:12:18Z" finished-at="2018-05-21T11:12:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTitle -->
-        <test-method status="PASS" signature="testUrl()[pri:0, instance:example.NewTest@5bfbf16f]" name="testUrl" duration-ms="1886" started-at="2018-05-21T09:23:55Z" finished-at="2018-05-21T09:23:57Z">
+        <test-method status="PASS" signature="testUrl()[pri:0, instance:example.NewTest@5bfbf16f]" name="testUrl" duration-ms="1009" started-at="2018-05-21T11:12:25Z" finished-at="2018-05-21T11:12:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUrl -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@5bfbf16f]" name="afterTest" is-config="true" duration-ms="1129" started-at="2018-05-21T09:23:57Z" finished-at="2018-05-21T09:23:58Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@5bfbf16f]" name="afterTest" is-config="true" duration-ms="1118" started-at="2018-05-21T11:12:26Z" finished-at="2018-05-21T11:12:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
