@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32887" started-at="2018-05-21T09:23:25Z" finished-at="2018-05-21T09:23:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32887" started-at="2018-05-21T09:23:25Z" finished-at="2018-05-21T09:23:58Z">
+      <class name="example.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@5bfbf16f]" name="beforeTest" is-config="true" duration-ms="19976" started-at="2018-05-21T09:23:25Z" finished-at="2018-05-21T09:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testTitle()[pri:0, instance:example.NewTest@5bfbf16f]" name="testTitle" duration-ms="9874" started-at="2018-05-21T09:23:45Z" finished-at="2018-05-21T09:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method status="PASS" signature="testUrl()[pri:0, instance:example.NewTest@5bfbf16f]" name="testUrl" duration-ms="1886" started-at="2018-05-21T09:23:55Z" finished-at="2018-05-21T09:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUrl -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@5bfbf16f]" name="afterTest" is-config="true" duration-ms="1129" started-at="2018-05-21T09:23:57Z" finished-at="2018-05-21T09:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- example.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
