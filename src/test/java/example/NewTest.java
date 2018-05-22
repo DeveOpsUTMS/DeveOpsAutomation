@@ -26,7 +26,7 @@ public class NewTest {
 		}
 		String title = driver.getTitle();
 		AssertJUnit
-				.assertTrue(title.contains("Global software,Product development and IT services company - ValueLabs"));
+				.assertTrue(title.contains("obal software,Product development and IT services company - ValueLabs"));
 
 		/*
 		 * if(driver.getTitle().equals(title)){ System.out.println(
