@@ -18,15 +18,9 @@ public class NewTest {
 	@Test
 	public void testTitle() {
 		driver.get("https://www.valuelabs.com/");
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		System.out.println("Titele verification started");
 		String title = driver.getTitle();
-		AssertJUnit
-				.assertTrue(title.contains("obal software,Product development and IT services company - ValueLabs"));
+		AssertJUnit.assertTrue(title.contains("obal software,Product development and IT services company - ValueLabs"));
 
 		/*
 		 * if(driver.getTitle().equals(title)){ System.out.println(
@@ -38,12 +32,7 @@ public class NewTest {
 	@Test
 	public void testUrl() {
 		driver.get("https://www.valuelabs.com/");
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		System.out.println("Url verification started");
 		String url = driver.getCurrentUrl();
 		AssertJUnit.assertEquals(url, "https://www.valuelabs.com/");
 	}
