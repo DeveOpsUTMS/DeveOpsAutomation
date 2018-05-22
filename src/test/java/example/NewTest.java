@@ -20,7 +20,8 @@ public class NewTest {
 		driver.get("https://www.valuelabs.com/");
 		System.out.println("Titele verification started");
 		String title = driver.getTitle();
-		AssertJUnit.assertTrue(title.contains("obal software,Product development and IT services company - ValueLabs"));
+		//Global software,Product development and IT services company - ValueLabs
+		AssertJUnit.assertEquals("Global software,Product  and IT services company - ValueLabs", title);
 
 		/*
 		 * if(driver.getTitle().equals(title)){ System.out.println(
@@ -41,7 +42,8 @@ public class NewTest {
 	public void beforeTest() {
 
 		// src/test/resources/org/automation/driver/chromedriver.exe
-		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+		///usr/bin/chromedriver
+		System.setProperty("webdriver.chrome.driver", "src/test/resources/org/automation/driver/chromedriver.exe");
 		chromeOptions.addArguments("--headless");
 		chromeOptions.addArguments("--no-sandbox");
 		driver = new ChromeDriver(chromeOptions);
