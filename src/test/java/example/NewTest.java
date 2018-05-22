@@ -35,7 +35,10 @@ WebDriver driver;
  
   @BeforeTest
   public void beforeTest() {
-	  System.setProperty("webdriver.chrome.driver", "src/test/resources/org/automation/driver/chromedriver.exe");
+	  
+	  
+	  //src/test/resources/org/automation/driver/chromedriver.exe
+	  System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 	  driver = new ChromeDriver();
   }
 
