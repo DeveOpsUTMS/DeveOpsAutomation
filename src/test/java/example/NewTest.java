@@ -21,7 +21,7 @@ public class NewTest {
 		System.out.println("Titele verification started");
 		String title = driver.getTitle();
 		//Global software,Product development and IT services company - ValueLabs
-		AssertJUnit.assertEquals("Global software,Product  and IT services company - ValueLabs", title);
+		AssertJUnit.assertEquals("Global software,Product development and IT services company - ValueLabs", title);
 
 		/*
 		 * if(driver.getTitle().equals(title)){ System.out.println(
